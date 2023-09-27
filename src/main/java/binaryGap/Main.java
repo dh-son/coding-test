@@ -3,13 +3,8 @@ package binaryGap;
 public class Main {
     public static void main(String[] args) {
 
-        String temp = "11100";
+        BinaryGap binaryGap = new BinaryGap();
 
-        String[] values = temp.split("1");
-
-        for (String value : values) {
-            System.out.println(value);
-        }
-
+        System.out.println("=====> main result: " + binaryGap.calculatorBinaryGap(9));
     }
 }
