@@ -16,9 +16,14 @@ public class Main {
 //        int result = permCheck.solution(A);
 //        System.out.println("=====> result: " + result);
 
-        MaxCounters maxCounters = new MaxCounters();
-        int[] A = {3, 4, 4, 6, 1, 4, 4};
-        int[] result = maxCounters.solution(5, A);
-        System.out.println("=====> result: " + Arrays.toString(result));
+//        MaxCounters maxCounters = new MaxCounters();
+//        int[] A = {3, 4, 4, 6, 1, 4, 4};
+//        int[] result = maxCounters.solution(5, A);
+//        System.out.println("=====> result: " + Arrays.toString(result));
+
+        MissingInteger missingInteger = new MissingInteger();
+        int[] A = {1, 3, 6, 4, 1, 2};
+        int result = missingInteger.solution(A);
+        System.out.println("=====> result: " + result);
     }
 }
