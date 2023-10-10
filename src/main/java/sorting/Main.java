@@ -14,11 +14,14 @@ public class Main {
 //        int result = maxProductOfThree.solution(A);
 //        System.out.println("=====> result: " + result);
 
-        Triangle triangle = new Triangle();
-        int[] A = {10, 2, 5, 1, 8, 20};
-        int result = triangle.solution(A);
+//        Triangle triangle = new Triangle();
+//        int[] A = {10, 2, 5, 1, 8, 20};
+//        int result = triangle.solution(A);
+//        System.out.println("=====> result: " + result);
+
+        NumberOfDiscIntersections numberOfDiscIntersections = new NumberOfDiscIntersections();
+        int[] A = {1, 5, 2, 1, 4, 0};
+        int result = numberOfDiscIntersections.solution(A);
         System.out.println("=====> result: " + result);
-
-
     }
 }
