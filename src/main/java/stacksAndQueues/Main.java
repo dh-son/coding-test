@@ -16,5 +16,9 @@ public class Main {
         Nesting nesting = new Nesting();
         String S1 = "(()(())())";
         System.out.println("=====> result: " + nesting.solution(S1));
+
+        StoneWall stoneWall = new StoneWall();
+        int[] H = {8, 8, 5, 7, 9, 8, 7, 4, 8};
+        System.out.println("=====> result: " + stoneWall.solution(H));
     }
 }
