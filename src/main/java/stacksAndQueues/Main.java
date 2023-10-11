@@ -12,5 +12,9 @@ public class Main {
         int[] A = {4, 3, 2, 1, 5};
         int[] B = {0, 1, 0, 0, 0};
         System.out.println("=====> result: " + fish.solution(A, B));
+
+        Nesting nesting = new Nesting();
+        String S1 = "(()(())())";
+        System.out.println("=====> result: " + nesting.solution(S1));
     }
 }
