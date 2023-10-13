@@ -10,7 +10,10 @@ public class Main {
 
         MaxSliceSum maxSliceSum = new MaxSliceSum();
         int[] A2 = {3, 2, -6, 4, 0};
-        int[] A3 = {-2, 1};
-        System.out.println("=====> result: " + maxSliceSum.solution(A3));
+        System.out.println("=====> result: " + maxSliceSum.solution(A2));
+
+        MaxDoubleSliceSum maxDoubleSliceSum = new MaxDoubleSliceSum();
+        int[] A3 = {6, 1, 5, 6, 4, 2, 9, 4};
+        System.out.println("=====> result: " + maxDoubleSliceSum.solution(A3));
     }
 }
