@@ -12,10 +12,12 @@ public class Main {
 //        int N2 = 36;
 //        System.out.println("=====> result: " + minPerimeterRectangle.solution(N2));
 
-        Flags flags = new Flags();
-        int[] A = {1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2};
-        int[] B = {1, 3, 2};
-        int[] C = {0, 0, 0, 0, 0, 1, 0, 1, 0, 1};
-        System.out.println("=====> result: " + flags.solution(A));
+//        Flags flags = new Flags();
+//        int[] A = {1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2};
+//        System.out.println("=====> result: " + flags.solution(A));
+
+        Peaks peaks = new Peaks();
+        int[] A = {1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2};
+        System.out.println("=====> result: " + peaks.solution(A));
     }
 }
